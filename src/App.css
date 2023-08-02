@@ -1,0 +1,27 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+.app{
+  width:100vw;
+  min-height: 100vh;
+  background-image:linear-gradient(to right, #8e2de2, #4a00e0);
+  display:grid;
+  place-items: center;
+}
+.container{
+  padding:1rem;
+  background-color: rgba(255, 255, 255,  0.6);
+  backdrop-filter: blur(10px);
+  max-width: 800px!important;
+display: flex;
+flex-wrap: wrap;
+
+justify-content: center;
+border-radius: 1rem;
+}
+h4,.questions{
+  max-width: 300px;
+  
+}
